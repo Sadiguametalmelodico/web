@@ -2,7 +2,7 @@ const postsData = {
     'post-1': {
         title: 'Anuncio Gira 2026',
         date: '25 FEB 2026',
-        //image: 'https://images.unsplash.com/photo-1598387181032-a3103a2db5b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
+        image: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
         content: `
             <p>Nos preparamos para nuevos destinos. ¡Prepárense para la brutalidad y la sinfonía!</p>
             <p>La gira abarcará más de 15 ciudades. Hemos preparado un setlist que cubre desde nuestros primeros demos hasta tocar el álbum completo "Tequendama".</p>
@@ -12,7 +12,7 @@ const postsData = {
     'post-2': {
         title: 'Grabación del Nuevo Videoclip',
         date: '10 FEB 2026',
-        //image: 'https://images.unsplash.com/photo-1598387181032-a3103a2db5b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
+        image: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
         content: `
             <p>Detrás de cámaras de la grabación de nuestro último sencillo épico "El Mohán".</p>
             <p>Este video captura la esencia misma de SADIGUA, usando pirotecnia real, orquestación en vivo y un escenógrafo de primer nivel. Grabado en las ruinas industriales de las afueras de la ciudad, el video será una obra de arte visual.</p>
@@ -21,7 +21,7 @@ const postsData = {
     'post-3': {
         title: 'Entrevista Exclusiva en Metal Magazine',
         date: '22 ENE 2026',
-        //image: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
+        image: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
         content: `
             <p>Nuestra charla profunda sobre el proceso creativo del último álbum y las raíces del metal melódico.</p>
             <p>"No intentamos hacer ruido, intentamos contar una historia en cada acorde", mencionó el vocalista en la revista número uno de música pesada de este mes. Lee cómo componemos, qué guitarras usamos y hacia dónde va nuestra música.</p>
