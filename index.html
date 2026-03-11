@@ -35,6 +35,7 @@
                 <li><a href="#publicaciones" class="nav-link">Publicaciones</a></li>
                 <li><a href="#brochure" class="nav-link">Brochure</a></li>
                 <li><a href="#galeria" class="nav-link">Galería</a></li>
+                <li><a href="#merchandising" class="nav-link">Merchandising</a></li>
                 <li><a href="#tienda" class="nav-link btn-store">Compra Música</a></li>
             </ul>
             <div class="nav-controls">
@@ -221,6 +222,62 @@
             </div>
         </section>
 
+        <!-- Merchandising Section -->
+        <section id="merchandising" class="section alt-bg">
+            <div class="section-container">
+                <div class="store-header">
+                    <h2 class="section-heading"><span class="accent-text">Merchandising</span> Oficial</h2>
+                    <p>Adquiere nuestros artículos oficiales. Imágenes de venta y promoción exclusivas.</p>
+                </div>
+                <div class="posts-grid">
+                    <article class="post-card">
+                        <div class="post-image" style="background-image: url('imagenes galeria/camiseta.jpg')"
+                            onclick="openLightbox('imagenes galeria/camiseta.jpg','Camiseta SADIGUA')">
+                        </div>
+                        <div class="post-content">
+                            <span class="post-date">OFICIAL</span>
+                            <h3>Camiseta SADIGUA</h3>
+                            <p>Camiseta 100% algodón con logo oficial de la banda. Tallas S, M, L, XL.</p>
+                            <h4 style="color: var(--accent-primary); margin-bottom: 15px; font-size: 1.5rem;">$20.00 USD
+                            </h4>
+                            <button class="btn-purchase" onclick="openPaymentModal('Camiseta SADIGUA', '20.00')"
+                                style="width: 100%;"><i class="fa-solid fa-cart-shopping"></i> Comprar y Apoyar</button>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <div class="post-image" style="background-image: url('imagenes galeria/gorra.jpg')"
+                            onclick="openLightbox('imagenes galeria/gorra.jpg','Gorra Bordada SADIGUA')">
+                        </div>
+                        <div class="post-content">
+                            <span class="post-date">NUEVO</span>
+                            <h3>Gorra Bordada</h3>
+                            <p>Gorra negra ajustable con el logo bordado de SADIGUA en alta calidad.</p>
+                            <h4 style="color: var(--accent-primary); margin-bottom: 15px; font-size: 1.5rem;">$15.00 USD
+                            </h4>
+                            <button class="btn-purchase" onclick="openPaymentModal('Gorra Bordada', '15.00')"
+                                style="width: 100%;"><i class="fa-solid fa-cart-shopping"></i> Comprar y Apoyar</button>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <div class="post-image" style="background-image: url('imagenes galeria/taza.jpg')"
+                            onclick="openLightbox('imagenes galeria/taza.jpg','Taza SADIGUA')">
+                        </div>
+                        <div class="post-content">
+                            <span class="post-date">PROMOCIÓN</span>
+                            <h3>Taza SADIGUA</h3>
+                            <p>Taza de cerámica edicion especial con arte ilustrativo de nuestro álbum.</p>
+                            <h4 style="color: var(--accent-primary); margin-bottom: 15px; font-size: 1.5rem;">$10.00 USD
+                            </h4>
+                            <button class="btn-purchase" onclick="openPaymentModal('Taza Tequendama', '10.00')"
+                                style="width: 100%;"><i class="fa-solid fa-cart-shopping"></i> Comprar y Apoyar</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
         <!-- Store / Music Purchase Section -->
         <section id="tienda" class="section store-section">
             <div class="section-container">
@@ -363,7 +420,7 @@
             <div id="modal-nequi-content">
                 <h3 class="modal-title" style="font-size: 2.2rem; margin-bottom: 10px; color: var(--accent-primary);">
                     PAGO DIRECTO</h3>
-                <p class="modal-subtitle" style="margin-bottom: 15px; font-size: 1.1rem;">Álbum: <strong
+                <p class="modal-subtitle" style="margin-bottom: 15px; font-size: 1.1rem;">Producto / Álbum: <strong
                         id="modal-album-name">...</strong></p>
                 <p style="font-size: 1.6rem; margin-bottom: 20px;">Valor: $<span id="btn-pay-price">...</span> USD</p>
 

@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const whatsappBtn = document.getElementById('btn-whatsapp-proof');
         if (whatsappBtn) {
             const phoneNumber = "573175747095"; // Reemplazar con el número real de Nequi/WhatsApp
-            const message = `Hola, quiero comprar el álbum "${albumName}" por Nequi/PSE. Adjunto mi comprobante de pago por el valor de $${price} USD.`;
+            const message = `Hola, quiero comprar el producto/álbum "${albumName}" por Nequi/PSE. Adjunto mi comprobante de pago por el valor de $${price} USD.`;
             const encodedMessage = encodeURIComponent(message);
             whatsappBtn.href = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
         }
